@@ -1,5 +1,14 @@
 {
   "dependencies": {
+    "aws-sdk": "^2.1173.0",
+    "heic-convert": "^1.2.4",
     "sharp": "^0.30.7"
+  },
+  "scripts": {
+    "dev": "serverless offline start",
+    "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "serverless-offline": "^8.0.0"
   }
 }
